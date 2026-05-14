@@ -66,3 +66,8 @@ doc/         # Full project documentation (PDFs + videos)
   ▎ ⚠️ Production deployment (besocial.cat) is no longer live.
 
   ---
+
+   ## Note
+
+  This was a school project built in 2023. The production deployment is no longer live and local setup is not guaranteed
+   to work out of the box. The code is available for reference.
