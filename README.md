@@ -1,8 +1,45 @@
-# Projectes finals curs 2022 2023
+  # BeSocial
 
-* BeSocial
-* BeSocial és aplicació que t'ajudará a trobar festa i oci de tots tipus a prop de tú.
-* Ismael Al Ghani - Damià Brea - Arnau Català - Lucas Costa
-* Penpod: https://design.penpot.app/#/view/4755a563-5b43-8015-8001-f2d2494add25?page-id=4755a563-5b43-8015-8001-f2d2494add26&section=interactions&index=0&share-id=88d87192-d205-8007-8002-88314513b490
-* Taiga: https://tree.taiga.io/project/ismaelalgh-besocial
-* Producció: https://besocial.cat
+  > Discover nearby events. See who's going. Know the vibe before you arrive.
+
+  BeSocial is a social platform that lets you find local events and leisure — and connects them to your actual taste in
+  music. Log in with Spotify, and the app matches events to the genres you listen to. See which friends are attending
+  before you commit.
+
+  Built as a final-year project for the DAW programme at Institut Pedralbes (2022–2023), deployed to production on
+  Oracle Cloud.
+
+  https://github.com/IsmaelAlGh03/besocial/raw/main/doc/besocial.mp4
+
+  ---
+
+  ## Features
+
+  - **Event discovery with geolocation** — browse events near you on an interactive map
+  - **Spotify integration** — connect your account and get events matched to your listening habits and favourite genres
+  - **Social layer** — follow friends, see who's attending each event
+  - **Friend attendance** — know which of your friends are going before you decide
+
+  ---
+
+  ## Tech Stack
+
+  | Layer | Tech |
+  |-------|------|
+  | Frontend | React · JavaScript |
+  | Backend | Laravel (PHP) |
+  | Database | MySQL |
+  | Real-time | WebSockets |
+  | Auth | Spotify OAuth |
+  | Deployment | Oracle Cloud |
+
+  ---
+
+  ## Project Structure
+
+  web/
+  ├── frontend/   # React SPA
+  └── backend/    # Laravel API
+  doc/            # Full project documentation (PDFs + video)
+
+  ---
