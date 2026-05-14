@@ -6,7 +6,7 @@ BeSocial is a social platform that lets you find local events and leisure — an
 
 Built as a final-year project for the DAW programme at Institut Pedralbes (2022–2023), deployed to production on Oracle Cloud.
 
-[![Demo](https://img.youtube.com/vi/ubZ5rnnv8SI/maxresdefault.jpg)](https://youtu.be/ubZ5rnnv8SI)
+[![Demo](doc/demo-preview.png)](https://youtu.be/ubZ5rnnv8SI)
 
 ---
 
