@@ -34,12 +34,24 @@
   | Deployment | Oracle Cloud |
 
   ---
+ Documentation
 
-  ## Project Structure
+  The doc/ folder contains the full project documentation produced during development:
 
-  web/
-  ├── frontend/   # React SPA
-  └── backend/    # Laravel API
-  doc/            # Full project documentation (PDFs + video)
+  - User Manual (doc/Manual%20d'usuarí_BeSocial.pdf)
+  - Component Diagram (doc/Diagrama%20de%20components.pdf)
+  - Sprint Planning (doc/Planificació%20dels%20Sprints.pdf)
+  - Deployment Manual (doc/Manual%20desplegament.pdf)
+  - Project Evolution & Problem Log (doc/Evolució%20del%20projecte%2C%20problemes%20i%20solucions.pdf)
+  - Elevator Pitch (doc/BeSocial%20-%20Elevator%20Pitch.mp4)
+
+  ---
+  Team
+
+  Built by Ismael Al Ghani (https://github.com/IsmaelAlGh03), Damià Brea, Arnau Català, and Lucas Costa.
+
+  ---
+
+  ▎ ⚠️ Production deployment (besocial.cat) is no longer live.
 
   ---
