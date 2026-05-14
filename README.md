@@ -1,39 +1,50 @@
-  # BeSocial
+# BeSocial
 
-  > Discover nearby events. See who's going. Know the vibe before you arrive.
+> Discover nearby events. See who's going. Know the vibe before you arrive.
 
-  BeSocial is a social platform that lets you find local events and leisure — and connects them to your actual taste in
-  music. Log in with Spotify, and the app matches events to the genres you listen to. See which friends are attending
-  before you commit.
+BeSocial is a social platform that lets you find local events and leisure — and connects them to your actual taste in music. Link your Spotify account and the app matches events to the genres you actually listen to. See which friends are attending before you commit.
 
-  Built as a final-year project for the DAW programme at Institut Pedralbes (2022–2023), deployed to production on
-  Oracle Cloud.
+Built as a final-year project for the DAW programme at Institut Pedralbes (2022–2023), deployed to production on Oracle Cloud.
 
-  https://github.com/IsmaelAlGh03/besocial/raw/main/doc/besocial.mp4
+[![Demo](https://img.youtube.com/vi/ubZ5rnnv8SI/maxresdefault.jpg)](https://youtu.be/ubZ5rnnv8SI)
 
-  ---
+---
 
-  ## Features
+## Features
 
-  - **Event discovery with geolocation** — browse events near you on an interactive map
-  - **Spotify integration** — connect your account and get events matched to your listening habits and favourite genres
-  - **Social layer** — follow friends, see who's attending each event
-  - **Friend attendance** — know which of your friends are going before you decide
+- **Event discovery with geolocation** — browse events near you on an interactive map
+- **Spotify integration** — link your account to get events matched to your listening habits and favourite genres
+- **Friend attendance** — see which of your friends are going to each event before you decide
+- **Social layer** — follow friends, manage your profile, interact with the community
 
-  ---
+---
 
-  ## Tech Stack
+## Tech Stack
 
-  | Layer | Tech |
-  |-------|------|
-  | Frontend | React · JavaScript |
-  | Backend | Laravel (PHP) |
-  | Database | MySQL |
-  | Real-time | WebSockets |
-  | Auth | Laravel Auth · Google Auth |
-  | Deployment | Oracle Cloud |
+| Layer | Tech |
+|-------|------|
+| Frontend | React · JavaScript |
+| Backend | Laravel (PHP) |
+| Database | MySQL |
+| Real-time | WebSockets |
+| Auth | Laravel Auth · Google OAuth |
+| External API | Spotify Web API |
+| Deployment | Oracle Cloud |
 
-  ---
+---
+
+## Project Structure
+
+```
+web/
+├── front/   # React SPA
+└── back/    # Laravel API
+doc/         # Full project documentation (PDFs + videos)
+```
+
+---
+
+
  Documentation
 
   The doc/ folder contains the full project documentation produced during development:
