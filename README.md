@@ -30,7 +30,7 @@
   | Backend | Laravel (PHP) |
   | Database | MySQL |
   | Real-time | WebSockets |
-  | Auth | Spotify OAuth |
+  | Auth | Laravel Auth · Google Auth |
   | Deployment | Oracle Cloud |
 
   ---
